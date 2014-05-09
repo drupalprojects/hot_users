@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * panopoly_users.field_group.inc
+ * hot_users.field_group.inc
  */
 
 /**
  * Implements hook_field_group_info().
  */
-function panopoly_users_field_group_info() {
+function hot_users_field_group_info() {
   $export = array();
 
   $field_group = new stdClass();

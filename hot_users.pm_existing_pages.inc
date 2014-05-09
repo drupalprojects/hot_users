@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * panopoly_users.pm_existing_pages.inc
+ * hot_users.pm_existing_pages.inc
  */
 
 /**
  * Implements hook_pm_existing_pages_info().
  */
-function panopoly_users_pm_existing_pages_info() {
+function hot_users_pm_existing_pages_info() {
   $export = array();
 
   $pm_existing_page = new stdClass();

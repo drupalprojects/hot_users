@@ -1,6 +1,6 @@
-Panopoly Users
+hotsauce Users
 ==============
-Helps you do more with users on your Panopoly site!
+Helps you do more with users on your hotsauce site!
 
 Key Features
 * Panelization of the to the user/login, user/password and user/register pages

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * panopoly_users.pages_default.inc
+ * hot_users.pages_default.inc
  */
 
 /**
  * Implements hook_default_page_manager_handlers().
  */
-function panopoly_users_default_page_manager_handlers() {
+function hot_users_default_page_manager_handlers() {
   $export = array();
 
   $handler = new stdClass();

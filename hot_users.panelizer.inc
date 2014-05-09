@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * panopoly_users.panelizer.inc
+ * hot_users.panelizer.inc
  */
 
 /**
  * Implements hook_panelizer_defaults().
  */
-function panopoly_users_panelizer_defaults() {
+function hot_users_panelizer_defaults() {
   $export = array();
 
   $panelizer = new stdClass();
@@ -85,7 +85,7 @@ function panopoly_users_panelizer_defaults() {
       'delta_offset' => '0',
       'delta_reversed' => FALSE,
       'formatter_settings' => array(
-        'image_style' => 'panopoly_image_full',
+        'image_style' => 'hotsauce_image_full',
         'image_link' => '',
       ),
       'context' => 'panelizer',
@@ -168,7 +168,7 @@ function panopoly_users_panelizer_defaults() {
       'delta_offset' => '0',
       'delta_reversed' => FALSE,
       'formatter_settings' => array(
-        'image_style' => 'panopoly_image_half',
+        'image_style' => 'hotsauce_image_half',
         'image_link' => '',
       ),
       'context' => 'panelizer',
@@ -292,7 +292,7 @@ function panopoly_users_panelizer_defaults() {
       'delta_offset' => '0',
       'delta_reversed' => FALSE,
       'formatter_settings' => array(
-        'image_style' => 'panopoly_image_half',
+        'image_style' => 'hotsauce_image_half',
         'image_link' => 'content',
       ),
       'context' => 'panelizer',

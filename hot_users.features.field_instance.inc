@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * panopoly_users.features.field_instance.inc
+ * hot_users.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function panopoly_users_field_default_field_instances() {
+function hot_users_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'user-user-field_user_about'
@@ -104,11 +104,11 @@ function panopoly_users_field_default_field_instances() {
         'manualcrop_maximize_default_crop_area' => 1,
         'manualcrop_require_cropping' => array(),
         'manualcrop_styles_list' => array(
-          'panopoly_image_full' => 'panopoly_image_full',
+          'hotsauce_image_full' => 'hotsauce_image_full',
         ),
         'manualcrop_styles_mode' => 'include',
         'manualcrop_thumblist' => 0,
-        'preview_image_style' => 'panopoly_image_featured',
+        'preview_image_style' => 'hotsauce_image_featured',
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',

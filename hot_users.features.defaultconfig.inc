@@ -1,15 +1,15 @@
 <?php
 /**
  * @file
- * panopoly_users.features.defaultconfig.inc
+ * hot_users.features.defaultconfig.inc
  */
 
 /**
  * Implements hook_defaultconfig_features().
  */
-function panopoly_users_defaultconfig_features() {
+function hot_users_defaultconfig_features() {
   return array(
-    'panopoly_users' => array(
+    'hot_users' => array(
       'strongarm' => 'strongarm',
       'user_default_permissions' => 'user_default_permissions',
     ),
@@ -19,7 +19,7 @@ function panopoly_users_defaultconfig_features() {
 /**
  * Implements hook_defaultconfig_strongarm().
  */
-function panopoly_users_defaultconfig_strongarm() {
+function hot_users_defaultconfig_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();
@@ -59,7 +59,7 @@ function panopoly_users_defaultconfig_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'user_picture_style';
-  $strongarm->value = 'panopoly_image_thumbnail';
+  $strongarm->value = 'hotsauce_image_thumbnail';
   $export['user_picture_style'] = $strongarm;
 
   return $export;
@@ -68,7 +68,7 @@ function panopoly_users_defaultconfig_strongarm() {
 /**
  * Implements hook_defaultconfig_user_default_permissions().
  */
-function panopoly_users_defaultconfig_user_default_permissions() {
+function hot_users_defaultconfig_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'administer panelizer user user breadcrumbs'.

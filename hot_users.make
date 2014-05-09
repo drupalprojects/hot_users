@@ -1,4 +1,4 @@
-; Panopoly Users Makefile
+; hotsauce Users Makefile
 
 api = 2
 core = 7.x
